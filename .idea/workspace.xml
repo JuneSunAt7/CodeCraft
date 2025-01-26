@@ -4,12 +4,619 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0e5ea12-cfbb-469d-b802-1c687751daf5" name="Changes" comment="define mission">
-      <change afterPath="$PROJECT_DIR$/ai_learn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/before/test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/parse_cpp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preform_data.py" afterDir="false" />
+    <list default="true" id="f0e5ea12-cfbb-469d-b802-1c687751daf5" name="Changes" comment="requirements">
+      <change afterPath="$PROJECT_DIR$/assets/learn.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai_learn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/0_int_long_float_double.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/NULL_nullptr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/RAII.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/advance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/advance_next_prev.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/any_of_all_of.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/array_length.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/assert.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/assert_with_custom_message.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/atomic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/backtrace.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/bit_length.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/bitset.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/bitset_rightmost_set_bit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/call_parent_function.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/change_directory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/char_star_append_char.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/char_star_find(contain)_nth_substr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/char_star_split(strtok).c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/char_star_substr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/combination.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/combination_count.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/combination_count_pascal_triangle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/complex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/const_cast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/const_return_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/container_value_type.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/copy_if_python_filter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/copy_vector_to_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/count_if.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/count_set_bits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/cout_container.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/cout_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/crc32.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/csv_read_write.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/declare_as_reference.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/declare_multiple_int_in_one_line.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/default_move_copy_constructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/define_multiple_variables.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/delete_this.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/dont_change_vector_while_iterating.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/enum_class.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/enum_class_with_methods.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/enum_from_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/enum_to_underlying.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/epsilon.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/exponential.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/extern_c.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_basename.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_basename_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_delete_on_close.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_exist.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_exist_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_move.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_parent_path.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_parent_path_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_read_all.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_read_all.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_read_lines.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_read_write_concurrently.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_remove.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/file_write.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/fill_array(memset).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/fill_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/find_container.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/find_end.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/find_first_of.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/find_if.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/find_if_reverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/float_comparision_epsilon.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/for_loop_multiple_variables.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/function_pointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/function_pointer_decltype.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/future_is_ready.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/gcd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/generate_n(iota_for_set).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/get_current_dir.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/get_or_remove_least_significant_bit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/glob.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/hex_encoding.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/includes(subset).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/input.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/insert_or_increment_map.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/int_float_double_max_min.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/int_to_bit_string.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/iomanip_set_output_width_precision.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/iota_python_range_equivalent.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/is_directory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/isalpha_isalnum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/isalpha_isdigit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/isnan_isinf.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/istringstream.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/iterator_end_minus_1_prev.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/lambda_function.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/list_directory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/log.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_erase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_erase_in_loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_first_last_element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_floorKey_ceilingKey.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_get_keys_values(map_to_vectors).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_initialize.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_iteration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_lower_bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_lower_bound_upper_bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_max_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_min_element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_new_key_custom_default_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_new_key_default_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_sort_by_key(descending).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/map_sort_by_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/min_max.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/mkdir.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/mod_add.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/mod_factorial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/mod_inverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/mod_multiply.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/mod_pow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/most_significant_bit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/multimap_insert.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/mutex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/mutex_read_write_lock_atomic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/next_permutation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/nth_element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/numeric_limits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/overload_stream_operator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/overload_subscript_operator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/pair.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/prime.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/printf_bool.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/printf_long.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/printf_scientific_notation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/printf_string.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/priority_queue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/priority_queue_custom_comparison.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/priority_queue_custom_comparison_with_remove.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/priority_queue_remove.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/queue_from_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/random_choice_from_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/random_fill_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/random_float.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/random_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/random_normal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/random_shuffle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/redirect_cout_to_file.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/reference_wrapper.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/regex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/reverse_iterator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/rotate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/round.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/set_concatenate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/set_erase_while_iterating.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/set_from_container.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/set_insert.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/set_lower_bound_upper_bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/set_operation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/set_operation_to_set.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/set_unordered_set_random_access.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/shared_ptr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/sigmoid.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/smart_pointer_raw_pointer_speed_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/sort_ascending_descending.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/sort_lambda.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/sort_with_custom_comparator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/sort_with_indices.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/square.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/stable_sort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/stack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/stack_to_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/static_cast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/static_member_variable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_add_char_star.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_append_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_argsort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_comparison.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_count_char_occurence.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_count_substr_occurrence.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_endswith_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_erase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_erase_remove_if(remove_char_from_another_string).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_find(contain)_nth_substr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_find(contain)_substr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_formatting.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_formatting_cpp_20.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_from_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_from_char_multiply_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_from_char_star.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_from_float_double_with_precision.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_from_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_from_int_with_specific_base.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_from_vector(join).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_from_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_from_vector_of_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_from_vector_of_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_is_digits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_is_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_iteration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_padding.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_parse_sscanf.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_push_back_pop_back.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_remove_all_non_alnum_chars.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_remove_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_remove_duplicate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_remove_last_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_replace(all).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_replace_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_replace_if(replace_char_from_another_string).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_reverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_rfind.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_sort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_split.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_startswith.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_substr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_to_char_star.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_to_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_to_template_type.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_trim(strip).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/string_trim(strip)_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/stringstream_clear.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/stringstream_reset_precision_and_flag.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/struct_constructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/switch_case_define_variable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/throw_try_catch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/time_and_sleep.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/time_difference.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/time_t(long_int)_to_and_from_string.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/time_t_localtime.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/time_t_tm_cout.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/time_t_tm_string_conversion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/time_unix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/time_unix_to_timestamp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/time_year_month_day_hour_minute_second.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/timestamp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/timestamp_to_unix_time.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/tolower_toupper.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/tolower_toupper_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/transform_python_map.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/tuple.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/tuple_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/type_name.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/typeid_operator_and_pointer_declaration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/typename_keyword.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/unique.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/unique_ptr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/unique_ptr_custom_deleter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/unordered_set_of_pair.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/unordered_set_operation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/upper_bound_lower_bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/using_keyword.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/variant.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_(reverse)_sort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_2d_zero_initialization.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_Q1Q2Q3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_abs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_add_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_all_same.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_argsort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_concatenate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_copy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_copy_part.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_cumulative_product.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_element_wise_add_minus.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_emplace_back_object.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_emplace_back_push_back.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_erase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_erase_if(remove one occurrence).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_erase_in_loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_erase_remove_idiom(remove all occurrences).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_filter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_find_all.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_find_all_dynamic_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_find_from_end.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_from_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_from_set_without_name.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_initialization_with_values.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_iterator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_last_element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_max_min_element_index.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_mean_stddev.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_of_class_without_default_constructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_of_int_to_vector_of_double.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_of_string_to_vector_of_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_pop_front.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_remove_by_indices.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_remove_find(remove one occurrence).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_remove_if.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_reorder_using_vector_of_indices.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_reset.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_reverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_slice.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_subvector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/after/vector_without_name.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/0_int_long_float_double.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/NULL_nullptr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/RAII.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/advance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/advance_next_prev.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/any_of_all_of.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/array_length.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/assert.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/assert_with_custom_message.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/atomic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/backtrace.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/bit_length.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/bitset.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/bitset_rightmost_set_bit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/call_parent_function.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/change_directory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/char_star_append_char.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/char_star_find(contain)_nth_substr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/char_star_split(strtok).c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/char_star_substr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/combination.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/combination_count.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/combination_count_pascal_triangle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/complex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/const_cast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/const_return_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/container_value_type.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/copy_if_python_filter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/copy_vector_to_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/count_if.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/count_set_bits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/cout_container.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/cout_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/crc32.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/csv_read_write.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/declare_as_reference.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/declare_multiple_int_in_one_line.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/default_move_copy_constructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/define_multiple_variables.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/delete_this.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/dont_change_vector_while_iterating.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/enum_class.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/enum_class_with_methods.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/enum_from_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/enum_to_underlying.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/epsilon.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/exponential.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/extern_c.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_basename.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_basename_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_delete_on_close.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_exist.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_exist_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_move.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_parent_path.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_parent_path_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_read_all.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_read_all.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_read_lines.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_read_write_concurrently.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_remove.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/file_write.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/fill_array(memset).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/fill_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/find_container.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/find_end.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/find_first_of.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/find_if.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/find_if_reverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/float_comparision_epsilon.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/for_loop_multiple_variables.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/function_pointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/function_pointer_decltype.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/future_is_ready.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/gcd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/generate_n(iota_for_set).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/get_current_dir.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/get_or_remove_least_significant_bit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/glob.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/hex_encoding.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/includes(subset).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/input.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/insert_or_increment_map.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/int_float_double_max_min.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/int_to_bit_string.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/iomanip_set_output_width_precision.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/iota_python_range_equivalent.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/is_directory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/isalpha_isalnum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/isalpha_isdigit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/isnan_isinf.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/istringstream.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/iterator_end_minus_1_prev.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/lambda_function.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/list_directory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/log.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_erase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_erase_in_loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_first_last_element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_floorKey_ceilingKey.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_get_keys_values(map_to_vectors).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_initialize.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_iteration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_lower_bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_lower_bound_upper_bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_max_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_min_element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_new_key_custom_default_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_new_key_default_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_sort_by_key(descending).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/map_sort_by_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/min_max.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/mkdir.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/mod_add.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/mod_factorial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/mod_inverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/mod_multiply.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/mod_pow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/most_significant_bit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/multimap_insert.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/mutex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/mutex_read_write_lock_atomic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/next_permutation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/nth_element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/numeric_limits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/overload_stream_operator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/overload_subscript_operator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/pair.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/prime.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/printf_bool.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/printf_long.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/printf_scientific_notation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/printf_string.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/priority_queue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/priority_queue_custom_comparison.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/priority_queue_custom_comparison_with_remove.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/priority_queue_remove.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/queue_from_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/random_choice_from_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/random_fill_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/random_float.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/random_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/random_normal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/random_shuffle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/redirect_cout_to_file.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/reference_wrapper.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/regex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/reverse_iterator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/rotate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/round.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/set_concatenate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/set_erase_while_iterating.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/set_from_container.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/set_insert.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/set_lower_bound_upper_bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/set_operation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/set_operation_to_set.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/set_unordered_set_random_access.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/shared_ptr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/sigmoid.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/smart_pointer_raw_pointer_speed_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/sort_ascending_descending.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/sort_lambda.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/sort_with_custom_comparator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/sort_with_indices.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/square.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/stable_sort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/stack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/stack_to_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/static_cast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/static_member_variable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_add_char_star.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_append_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_argsort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_comparison.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_count_char_occurence.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_count_substr_occurrence.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_endswith_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_erase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_erase_remove_if(remove_char_from_another_string).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_find(contain)_nth_substr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_find(contain)_substr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_formatting.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_formatting_cpp_20.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_from_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_from_char_multiply_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_from_char_star.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_from_float_double_with_precision.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_from_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_from_int_with_specific_base.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_from_vector(join).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_from_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_from_vector_of_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_from_vector_of_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_is_digits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_is_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_iteration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_padding.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_parse_sscanf.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_push_back_pop_back.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_remove_all_non_alnum_chars.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_remove_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_remove_duplicate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_remove_last_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_replace(all).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_replace_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_replace_if(replace_char_from_another_string).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_reverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_rfind.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_sort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_split.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_startswith.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_substr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_to_char_star.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_to_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_to_template_type.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_trim(strip).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/string_trim(strip)_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/stringstream_clear.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/stringstream_reset_precision_and_flag.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/struct_constructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/switch_case_define_variable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/throw_try_catch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/time_and_sleep.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/time_difference.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/time_t(long_int)_to_and_from_string.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/time_t_localtime.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/time_t_tm_cout.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/time_t_tm_string_conversion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/time_unix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/time_unix_to_timestamp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/time_year_month_day_hour_minute_second.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/timestamp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/timestamp_to_unix_time.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/tolower_toupper.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/tolower_toupper_boost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/transform_python_map.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/tuple.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/tuple_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/type_name.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/typeid_operator_and_pointer_declaration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/typename_keyword.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/unique.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/unique_ptr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/unique_ptr_custom_deleter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/unordered_set_of_pair.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/unordered_set_operation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/upper_bound_lower_bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/using_keyword.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/variant.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_(reverse)_sort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_2d_zero_initialization.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_Q1Q2Q3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_abs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_add_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_all_same.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_argsort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_concatenate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_copy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_copy_part.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_cumulative_product.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_element_wise_add_minus.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_emplace_back_object.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_emplace_back_push_back.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_erase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_erase_if(remove one occurrence).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_erase_in_loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_erase_remove_idiom(remove all occurrences).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_filter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_find_all.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_find_all_dynamic_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_find_from_end.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_from_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_from_set_without_name.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_initialization_with_values.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_iterator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_last_element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_max_min_element_index.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_mean_stddev.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_of_class_without_default_constructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_of_int_to_vector_of_double.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_of_string_to_vector_of_int.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_pop_front.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_remove_by_indices.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_remove_find(remove one occurrence).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_remove_if.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_reorder_using_vector_of_indices.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_reset.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_reverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_slice.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_subvector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/before/vector_without_name.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/bundle-libclang-3.4.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/bundle-libclang-3.5.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.4/windows/mingw/source.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.4/windows/mingw/x86/libclang.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.4/windows/mingw/x86_64/libclang.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.5/include/clang-c/BuildSystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.5/include/clang-c/CXCompilationDatabase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.5/include/clang-c/CXErrorCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.5/include/clang-c/CXString.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.5/include/clang-c/Documentation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.5/include/clang-c/Index.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.5/include/clang-c/Platform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.5/linux/x86_64/libclang.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.5/mac/x86_64/libclang.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-3.5/windows/msvc/x86/libclang.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libclang/libclang/libclang-binaries.Rproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_mission.md" beforeDir="false" afterPath="$PROJECT_DIR$/main_mission.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preform_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/preform_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,21 +633,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JuneSunAt7"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JuneSunAt7&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JuneSunAt7/gem13_ai.git",
-    "accountId": "4d3e5c81-7930-4b58-95e1-0814fc7c77dd"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JuneSunAt7/gem13_ai.git&quot;,
+    &quot;accountId&quot;: &quot;4d3e5c81-7930-4b58-95e1-0814fc7c77dd&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2rfdzpvXgSOTff9Jc92dBhOc2H1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,10 +661,13 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.ai_learn.executor": "Run",
     "Python.parse_cpp.executor": "Run",
+    "Python.preform_data.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/programming/python/gem13_ai"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,8 +709,27 @@
       <option name="project" value="LOCAL" />
       <updated>1736955466294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create some assets &amp; ai model for tf">
+      <option name="closed" value="true" />
+      <created>1736961861746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736961861746</updated>
+    </task>
+    <task id="LOCAL-00004" summary="requirements">
+      <option name="closed" value="true" />
+      <created>1736962082277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736962082277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -115,6 +744,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="define mission" />
-    <option name="LAST_COMMIT_MESSAGE" value="define mission" />
+    <MESSAGE value="create some assets &amp; ai model for tf" />
+    <MESSAGE value="requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirements" />
   </component>
 </project>
