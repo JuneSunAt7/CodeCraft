@@ -1,35 +1,26 @@
-import pandas as pd
+import numpy as np
+from tensorflow import keras
+import pickle
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-# Создаем список кода и соответствующих меток
-data = {
-    'code': [
-        '#include <iostream>\nint main() {\nstd::cout << "Hello, World!" << std::endl;\nreturn 0;\n}',  # хороший код
-        '#include <iostream>\nint main() {\nstd::cout << "Missing semicolon"\nreturn 0;\n}',  # синтаксическая ошибка
-        '#include <iostream>\nint main() {\nint a = 5;\nint b = 0;\nstd::cout << a / b << std::endl;\nreturn 0;\n}',  # логическая ошибка
-        '#include <iostream>\nint main() {\nint a = 10;\nstd::cout << a << std::endl;\n}',  # хороший код
-        '#include <iostream>\nint main() {\nint a = 10;\nif (a = 5) std::cout << "Error";\nreturn 0;\n}',  # логическая ошибка
-        '#include <iostream>\nint main() {\nstd::cout << "No main function";\n}',  # синтаксическая ошибка
-        '#include <iostream>\nint main() {\nstd::cout << "Valid code!" << std::endl;\nreturn 0;\n}',  # хороший код
-        '#include <iostream>\nint main() {\n  int a = 10;\n  return;\n}',  # синтаксическая ошибка
-        '#include <iostream>\nint main() {\nint a = 10;\nint b = 0;\nstd::cout << a / b << std::endl;\n}',  # логическая ошибка
-        '#include <iostream>\nint add(int x, int y) {\nreturn x + y;\n}\nint main() {\nstd::cout << add(5, 10);\nreturn 0;\n}'  # хороший код
-    ],
-    'label': [
-        0,  # хороший код
-        1,  # синтаксическая ошибка
-        2,  # логическая ошибка
-        0,  # хороший код
-        2,  # логическая ошибка
-        1,  # синтаксическая ошибка
-        0,  # хороший код
-        1,  # синтаксическая ошибка
-        2,  # логическая ошибка
-        0   # хороший код
-    ]
-}
+loaded_model = keras.models.load_model('cpp_err.h5')
 
-# Создаем DataFrame из данных
-df = pd.DataFrame(data)
+with open('tokenizer_cpp_err.pkl', 'rb') as handle:
+    loaded_tokenizer = pickle.load(handle)
 
-# Сохраняем DataFrame в CSV файл
-df.to_csv('assets/gen.csv', index=False)
+def predict_error(code):
+    sequence = loaded_tokenizer.texts_to_sequences([code])
+
+    max_length = loaded_model.input_shape[1]  # Получаем максимальную длину из загруженной модели
+    padded_sequence = pad_sequences(sequence, maxlen=max_length, padding='post')
+
+    prediction = loaded_model.predict(padded_sequence)
+
+    return int(prediction.round())
+
+
+new_code = "#include <iostream>\nint main() {\nint b = 10;\nb = b / 5;\nstd::cout << b << std::endl;\nreturn 0;\n}"
+print(f"Predicted label (no error): {predict_error(new_code)}")
+
+new_logic_code = "#include <iostream>\nint main(){\nint a = 10;\nif(a=10){\nstd::cout<< a;\nreturn 0;\n}"
+print(f"Predicted label (error): {predict_error(new_logic_code)}")
