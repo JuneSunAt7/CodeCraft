@@ -11,7 +11,7 @@ with open('tokenizer_cpp_err.pkl', 'rb') as handle:
 def predict_error(code):
     sequence = loaded_tokenizer.texts_to_sequences([code])
 
-    max_length = loaded_model.input_shape[1]  # Получаем максимальную длину из загруженной модели
+    max_length = loaded_model.input_shape[1] # get max length
     padded_sequence = pad_sequences(sequence, maxlen=max_length, padding='post')
 
     prediction = loaded_model.predict(padded_sequence)

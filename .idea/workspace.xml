@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0e5ea12-cfbb-469d-b802-1c687751daf5" name="Changes" comment="create finder errors">
-      <change beforePath="$PROJECT_DIR$/.idea/gem13_ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gem13_ai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f0e5ea12-cfbb-469d-b802-1c687751daf5" name="Changes" comment="a model was created to classify code into error-containing and non-error-containing codes">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai_learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/assets/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736962082277</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="a model was created to classify code into error-containing and non-error-containing codes">
+      <option name="closed" value="true" />
+      <created>1738059468043</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738059468043</updated>
+    </task>
+    <task id="LOCAL-00006" summary="a model was created to classify code into error-containing and non-error-containing codes">
+      <option name="closed" value="true" />
+      <created>1738059500493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738059500493</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -143,6 +157,7 @@
     <MESSAGE value="create some assets &amp; ai model for tf" />
     <MESSAGE value="requirements" />
     <MESSAGE value="create finder errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="create finder errors" />
+    <MESSAGE value="a model was created to classify code into error-containing and non-error-containing codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="a model was created to classify code into error-containing and non-error-containing codes" />
   </component>
 </project>
