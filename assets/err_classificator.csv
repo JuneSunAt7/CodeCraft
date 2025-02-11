@@ -84,3 +84,14 @@ code,label
 "#include <iostream>\nint main() {\nint x = 5;\nstd::cout << x + ;\nreturn 0;\n}",syntax_error
 "#include <iostream>\nint main() {\nstd::cout << \"All done!\" << std::endl;\nreturn 0;\n}",no_error
 "#include <iostream>\nint main() {\nint x = 10;\nstd::cout << x / 0 << std::endl;\nreturn 0;\n}",logic_error
+"#include <iostream>\nint main() {\nint* ptr = nullptr;\nstd::cout << *ptr << std::endl;\nreturn 0;\n}",runtime_error
+"#include <iostream>\nint main() {\nstd::cout << \"Valid code\" << std::endl;\nreturn 0;\n}",no_error
+"#include <iostream>\nint main() {\nint arr[5];\nstd::cout << arr[-1] << std::endl;\nreturn 0;\n}",runtime_error
+"#include <iostream>\nint main() {\nstd::cout << \"Another valid code\" << std::endl;\nreturn 0;\n}",no_error
+"#include <iostream>\nint main() {\nint x = 5;\nstd::cout << x % 0 << std::endl;\nreturn 0;\n}",logic_error
+"#include <iostream>\nint main() {\nint x = 5;\nstd::cout << x - ;\nreturn 0;\n}",syntax_error
+"#include <iostream>\nint main() {\nstd::cout << \"Yet another valid code\" << std::endl;\nreturn 0;\n}",no_error
+"#include <iostream>\nint main() {\nint x = 5;\nif(x = 0) {\nstd::cout << \"Error\";\n}\nreturn 0;\n}",logic_error
+"#include <iostream>\nint main() {\nstd::cout << \"Final valid code\" << std::endl;\nreturn 0;\n}",no_error
+"#include <iostream>\nint main() {\nint x = 5;\nstd::cout << x * ;\nreturn 0;\n}",syntax_error
+"#include <iostream>\nint main() {\nstd::cout << \"End of test\" << std::endl;\nreturn 0;\n}",no_error
