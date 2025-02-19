@@ -15,7 +15,7 @@ def preprocess_code(code):
     tokens = [token for token in tokens if token.strip()]
     return ' '.join(tokens).strip()
 
-
+# fuck
 def load_and_preprocess_data(directory):
     code_samples = []
     empty_files = []

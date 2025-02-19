@@ -83,7 +83,7 @@ def generate_code(seed_text, next_words=10, max_sequence_len=None):
 
     return seed_text
 
-
+# fuck
 seed_text = "import os \n def main(): \n print('hello world') \n if name==  "
 generated_code = generate_code(seed_text, next_words=10)
 print("code:")
