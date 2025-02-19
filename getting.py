@@ -6,7 +6,7 @@ def download_code_from_github(save_path='assets', language='python', max_repos=1
     if not os.path.exists(save_path):
         os.makedirs(save_path)
 
-    headers = {'Authorization': 'token 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'}
+
     url = f"https://api.github.com/search/repositories?q=language:{language}+for+beginners&sort=forks&order=desc"
     response = requests.get(url, headers=headers)
 
